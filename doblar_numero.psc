@@ -1,5 +1,5 @@
 //Desarrol
-Proceso doblar_nuemero
+Proceso doblar_numero
 	Escribir "Algoritmo Doblar Numero";
 	Escribir"====================";
 	Escribir "";//Salto de linea
