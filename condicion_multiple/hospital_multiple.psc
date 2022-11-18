@@ -1,0 +1,51 @@
+Proceso hospital
+	//Alexander Israel Rivera Hernandez
+	Escribir "Algoritmo: Hospital en crisis";
+	Escribir "Tipo de enfermedad ";
+	Escribir "  1  - $1500";
+	Escribir "  2  - $1700";
+	Escribir "| 3  - $1500";
+	Escribir ":)";
+	Escribir " ";
+	definir nombre como texto;
+	Definir  tip, dias, tipo, prima, total Como real;
+	Escribir "Ingresa el nombre del paciente";
+	leer nombre;
+	Escribir "Ingresa el tipo de enfermedad";
+	leer tip;
+	Escribir "Ingresa la numero de dias ";
+	leer dias;
+	Escribir "";
+	Si tip >= 1 y tip <= 3 Entonces
+ Segun tip Hacer
+  1:
+   Escribir "";
+	Escribir "Nombre del paciente ", Mayusculas(nombre);
+    Escribir "Dias Hospitalizado ",dias;
+	Escribir "Tipo de enfermedad ", tip;
+    total <- 1500 * dias;
+	Escribir "Costo total a pagar", total;
+	Escribir ":)";
+	2:
+	Escribir ":)";
+	Escribir "Nombre del paciente ", Mayusculas(nombre);
+	Escribir "Dias Hospitalizado ",dias;
+	Escribir "Tipo de enfermedad ", tip;
+	total <- 1700 * dias;
+	Escribir "Costo total a pagar", total;
+	Escribir ":)";
+	3:
+	Escribir ":)";
+	Escribir "Nombre del paciente ", Mayusculas(nombre);
+	Escribir "Dias Hospitalizado ",dias;
+	Escribir "Tipo de enfermedad ", tip;
+	total <- 1900 * dias;
+	Escribir "Costo total a pagar", total;
+	Escribir ":)";
+	De Otro Modo:
+	Escribir "No hay mas tipos";
+	FinSegun
+	SiNo
+	Escribir "tipo de enfermedad  Incorrecta";
+	FinSi
+FinProceso
